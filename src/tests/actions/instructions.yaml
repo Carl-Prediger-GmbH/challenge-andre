@@ -1,0 +1,7 @@
+task:
+  name: Test Task
+  max_time: 10 sec
+  description: This is just a test.
+  steps:
+    - Test 1
+    - Test 2

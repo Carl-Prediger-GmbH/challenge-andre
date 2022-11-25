@@ -1,0 +1,29 @@
+{
+  "name": "prediger/challenge",
+  "description": "Prediger-Recruiting-Development-Test.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "thorsten",
+      "email": "T.Wehage@prediger.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "challenge\\": "",
+      "challenge_test\\": "tests/"
+    }
+  },
+  "require": {
+    "guzzlehttp/psr7": "^2.4.1",
+    "psr/http-server-handler": "1.0.1",
+    "symfony/dependency-injection": "^v6.1",
+    "symfony/config": "^6.1",
+    "symfony/yaml": "^v6.1",
+    "twig/twig": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}

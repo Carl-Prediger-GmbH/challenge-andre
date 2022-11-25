@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Prediger - Recruitment</h1>
+    <p>This is a small testing framework. It's based upon PHP 8.1 and uses a few commonly known libraries. It's rudimentary designed just to give a basic structure to start with and depend on.</p>
+    <p>Read the instructions below carefully. Integrate your work into the framework. Try to use given functionality as possible but feel free to adjust as you like.</p>
+    <h2>Your Task: {{ task.name }}</h2>
+    <p>{{ task.description }}</p>
+    {% if task.steps %}
+    <ul>
+        {% for step in task.steps %}
+        <li>{{ step }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <p>Take your time, but do not spend more than {{ task.max_time }} on this task. You don't have to complete your task. In the end it's more important for us to be able to see what your plan was than to see an actual output result.</p>
+{% endblock %}
