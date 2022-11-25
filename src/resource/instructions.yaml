@@ -1,7 +1,7 @@
 task:
-   name: Sample Task
+   name: Test Task
    max_time: 2 hours
-   description: Lorem Ipsum dolor sit.
+   description: Do your stuff.
    steps:
       - Step 1
       - Step 2
