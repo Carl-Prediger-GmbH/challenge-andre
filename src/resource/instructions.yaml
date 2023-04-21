@@ -1,8 +1,17 @@
 task:
-   name: Test Task
+   name: Illuminance Calculator
    max_time: 2 hours
-   link: foo
-   description: Do your stuff.
+   link: illuminance_calculator
+   description: |
+      Create a new page "Illuminance Calculator" in this application. The user should be able to specify the room size (m²) and the room type (kitchen or living room).
+      
+      As a result of the calculation a list of luminants will be given, containing
+      - its name
+      - the minimum number of luminants required to illuminate the room
+      - and the total price amount
+      
+      Use the following guidelines:
    steps:
-      - Step 1
-      - Step 2
+      - | 
+         Room type specifications: "livingroom" (100 lm/m²) "kitchen" (300 lm/m²)
+      - Use "resource/luminants.csv" as a source for luminants data.
