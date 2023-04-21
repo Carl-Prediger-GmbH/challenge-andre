@@ -1,6 +1,7 @@
 task:
    name: Test Task
    max_time: 2 hours
+   link: foo
    description: Do your stuff.
    steps:
       - Step 1
